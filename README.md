@@ -1,6 +1,6 @@
 [GitHub]() | [Gitee]() 
 
-# FastTesting 
+# sveltest 
 
 
 
@@ -80,12 +80,12 @@ test_case_demo (__main__.TestDemoTo1)   PASS
 
 
 
-from fast_testing import TestView,main
-from fast_testing.core.components.parameterized import char,parameterized
+from sveltest import TestCase,main
+from sveltest.core.components.parameterized import char,parameterized
 
 
 @parameterized()
-class TestDemoTo1(TestView):
+class TestDemoTo1(TestCase):
     """简单的测试demo"""
 
     def setUp(self):
@@ -138,7 +138,6 @@ AssertionError: 'sweet' != 'testcase'
 
 ```
 
-![image-20220927143043029](./README.assets/image-20220927143043029.png)
 
 
 
@@ -147,15 +146,14 @@ AssertionError: 'sweet' != 'testcase'
 
 ## 文档
 
-有关完整文档，包括安装、教程和 PDF 文档，请参阅 暂无
-
-技术操作文档也会给大家编写完成 请尽请期待
+有关完整文档，包括安装、教程和 PDF 文档，请参阅 https://sveltest-team.github.io/docs/
 
 
 
 
 
-### 如果你在使用 fastTest 库发现bug请联系我 gfl13453001@163.com
+
+### 如果你在使用 sveltest 库发现bug请联系我 gfl13453001@163.com
 
 
 
