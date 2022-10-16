@@ -16,7 +16,7 @@ setuptools.setup(
     description="高效率测试开发集成框架",  #描述
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/gfl13453001/fastTest", #github地址
+    url="https://github.com/sveltest-Team/sveltest.git", #github地址
     packages = setuptools.find_packages(),  # 包含所有src中的包
     # package_dir = {'':'sveltest'},   # 告诉distutils包都在src下
 
